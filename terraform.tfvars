@@ -3,7 +3,7 @@
 # ======================== #
 
 vm-count = 1
-vm-name = "ubuntu2204"
+vm-name = "ubuntu22"
 vm-template-name = "tpl-ubuntu-2204"
 vm-cpu = 2
 vm-ram = 4096
@@ -40,7 +40,7 @@ vm-network = "Lab VM"
 # VM IPs
 vm_ips = {
    "0" = "10.0.201.150"
-#  "1" = "10.0.200.247"
+   "1" = "10.0.200.251"
 #  "2" = "10.0.200.248"
 }
 
@@ -52,3 +52,5 @@ vm_dns = "10.0.201.1"
 
 # Linux virtual machine domain name
 vm-domain = "local"
+
+vm_netmask = 24
